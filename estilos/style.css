@@ -62,15 +62,25 @@ div#formulario > h1 {
 div#formulario > p {
     font-size: 0.8em;
     padding: 5px;
+    margin-bottom: 10px;
 }
 
 div.campo {
     display: block;
     width: 100%;
     height: 40px;
-    margin: 5px 0px;
+    margin: 10px 0px;
     border-radius: 5px;
     background-color: #676355;
+}
+
+div.campo > input {
+    font-size: 1em;
+    transform: translateY(-11px);
+    height: 80%;
+    border-radius: 5px;
+    border: none;
+    width: calc(100% - 48px);
 }
 
 div.campo > label {
@@ -78,8 +88,10 @@ div.campo > label {
 }
 
 i.material-icons {
-    border-radius: 5px;
+    font-size: 2em;
     color: white;
+    width: 40px;
+    padding: 5px;
 }
 
 form > input[type=submit] {
@@ -116,7 +128,7 @@ form > a.botao {
     background-color: white;
 }
 
-form > a.botao > i#esqueceu {
+i#esqueceu {
     background-color: rgba(255, 255, 255, 0);
     font-size: 0.8em;
     color: #676355;

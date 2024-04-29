@@ -4,7 +4,7 @@
 @media screen and (min-width: 768px) and (max-width: 1200px) {
     section#login {
         width: 80vw;
-        height: 300px;
+        height: 290px;
     }
 
     section#login > div#imagem {
@@ -19,7 +19,7 @@
     }
 
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 0.9em;
     }
 }
 
@@ -27,7 +27,7 @@
 @media screen and (min-width: 1201px) {
     section#login {
         width: 50vw;
-        height: 305px;
+        height: 285px;
     }
 
     section#login > div#imagem {
@@ -42,10 +42,10 @@
     }
 
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 0.8em;
     }
 
     div#formulario > h1 {
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
 }

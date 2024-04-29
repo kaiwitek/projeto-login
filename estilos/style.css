@@ -93,19 +93,23 @@ i.material-icons {
     padding: 5px;
 }
 
-form > input[type=submit] {
+a#enviar {
     display: block;
+    text-align: center;
     font-size: 1em;
     width: 100%;
     height: 30px;
+    padding-top: 4px;
+    margin-top: 5px;
     border: none;
     border-radius: 5px;
+    text-decoration: none;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.244);
     color: white;
     background-color:#676355;
 }
 
-form > input[type=submit]:hover {
+a#enviar:hover {
     background-color: #b1ab9f;
     cursor: pointer;    
     transition-duration: 0.3s;
